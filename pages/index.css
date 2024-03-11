@@ -253,7 +253,7 @@ input::placeholder{
     margin-right: 12px;
 }
 
-.label__checkbox{
+.form__checkbox-item{
     font-family: Inter;
     font-style: normal;
     font-weight: 500;
