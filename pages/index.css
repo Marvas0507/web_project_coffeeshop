@@ -168,7 +168,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    padding-top: 80px;
+    padding-top: 100px;
     padding-bottom: 120px;
     position: relative;
 }
@@ -233,10 +233,11 @@ input::placeholder{
     font-size: 16px;
     line-height: 20px;
     border-radius: 4px;  
-    background-color: #2f80ed;  
+    background-color: #2f80ed;
+    padding: 0;  
 }
 
-.reservation__form-button:hover{
+.reservation__button:hover{
     opacity: 0.7;
 }
 
