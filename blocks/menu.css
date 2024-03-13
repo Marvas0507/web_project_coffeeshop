@@ -28,3 +28,15 @@
     font-size: 20px; 
     line-height: 30px;
 }
+.menu__cards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 100px;
+}
+.menu__card{
+    min-width: 540px;
+    max-width: 540px;
+    display: flex;
+    flex-direction: column;    
+}
