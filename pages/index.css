@@ -314,7 +314,7 @@ input::placeholder{
     flex-direction: column;    
 }
 
-.menu__card-title{
+.card__title{
     margin:0 0 32px;
     font-family: "Inter"; 
     font-style: normal; 
@@ -323,7 +323,7 @@ input::placeholder{
     line-height: 30px;
 }
 
-.card__content{
+.card__content-list{
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -334,16 +334,16 @@ input::placeholder{
     line-height: 20px;
 }
 
-.card__list-item{
+.card__content-item{
     display: flex;
     justify-content: space-between;
     margin-bottom: 16px;    
 }
-.card__list-item:last-child{
+.card__content-item:last-child{
     margin-bottom: 0;
 }
 
-.card__list-divider{
+.card__content-divider{
     border-bottom: 1px solid #838383;
     flex-grow: 1;
 }
