@@ -66,7 +66,9 @@
     line-height: 20px;
     border-radius: 4px;  
     background-color: #2f80ed;
-    padding: 0;  
+    padding: 0;
+    border: none;
+    color: #fff;  
 }
 
 .reservation__button:hover{
